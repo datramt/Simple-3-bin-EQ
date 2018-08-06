@@ -84,7 +84,7 @@ function setup() {
     }
   });
   
-  volumeSlider = createSlider(-60, 60, 0, 1).position(160, 10);
+  volumeSlider = createSlider(-60, 0, 0, 1).position(160, 10);
   volumeSlider.style('-webkit-appearance', 'none').style('border-radius', '15px').style('background','gray').style('opacity', '0.5');
   volumeSlider.input(() => {
     if (volumeSlider.value() === -60) {
